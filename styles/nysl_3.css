@@ -1,0 +1,96 @@
+body {
+    margin: 40px;
+    font-family: cursive;
+    color: rgb(196, 12, 12);
+    background-color: rgb(247, 202, 183);
+}
+
+header {
+    background: url("Raptors_banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50;
+    height: 500px;
+    width: auto;
+}
+
+h1 {
+    vertical-align: bottom;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+div {
+    visibility: hidden;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 10px 0;
+    border: 2px solid black;
+}
+
+img {
+    visibility: visible;
+    position: absolute;
+    left: 371px;
+    top: 700px;
+    height: 5em;
+    width: 5em;
+}
+
+section {
+    display: inline-block;
+    
+}
+
+p   {
+    padding-left: 10px;
+    line-height: 35px;
+}
+
+ul  {
+    position: absolute;
+    top: 484px;
+    right: 459px;
+}
+li  {
+    list-style-type: none;
+    background-color: rgb(196, 12, 12);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.current {
+    text-decoration: none;
+    background-color:  rgb(247, 202, 183);
+    color: rgb(196, 12, 12);
+}
+
+.smaller {
+    margin: auto;
+    width: 45%;
+    vertical-align: top;
+    text-align: end;
+}
+.larger {
+    margin: 0;
+    width: 45%;
+    vertical-align: top;
+}
